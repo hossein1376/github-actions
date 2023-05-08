@@ -11,7 +11,7 @@ jobs:
         run: go version
 
       - name: list
-        run: ls -laF ..
+        run: ls -laF ../..
 
       - name: run-app
-        run: go run ./main.go
+        run: go run ../../main.go
