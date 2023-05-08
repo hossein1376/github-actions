@@ -9,3 +9,6 @@ jobs:
 
       - name: check-version
         run: go version
+
+      - name: run-app
+        run: go run ./main
